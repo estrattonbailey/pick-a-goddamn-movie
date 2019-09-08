@@ -1,0 +1,12 @@
+[build]
+  base = "."
+  publish = "./build/site"
+  functions = "./build/functions"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production]

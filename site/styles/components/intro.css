@@ -1,0 +1,17 @@
+.intro {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  @media (min-width: 900px) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    max-width: 1000px;
+  }
+}
+
+.intro-button {
+  margin-top: 24px;
+}

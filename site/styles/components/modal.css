@@ -1,0 +1,16 @@
+.modal {
+  padding: 48px 0;
+  background: white;
+
+  @media (min-width: 900px) {
+    padding: 64px 0;
+  }
+}
+.modal__close {
+  font-size: 3rem;
+  transform: rotate(45deg);
+  right: 24px;
+  top: 24px;
+  background: transparent;
+  color: var(--mel);
+}

@@ -1,0 +1,43 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alio.config.js",
+  "scripts": {
+    "start": "npm run api:build && netlify dev",
+    "api": "alio watch",
+    "api:build": "alio build",
+    "netlify": "netlify dev",
+    "build": "npm run api:build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@alio/preset-node": "^1.0.2-alpha.0",
+    "@alio/preset-postcss": "^1.0.2-alpha.0",
+    "@alio/preset-serverless": "^1.0.2-alpha.0",
+    "@babel/preset-react": "^7.0.0",
+    "alio": "^1.0.2-alpha.0",
+    "netlify-cli": "^2.13.1"
+  },
+  "dependencies": {
+    "@picostate/react": "^3.0.0-1",
+    "@sanity/client": "^0.142.0",
+    "@sstack/cookies": "^0.1.4",
+    "@sstack/errors": "^0.1.4",
+    "@sstack/helmet": "^0.1.4",
+    "@sstack/json": "^0.1.4",
+    "http-errors": "^1.7.3",
+    "js-cookie": "^2.2.1",
+    "jwt-simple": "^0.5.6",
+    "ky": "^0.13.0",
+    "picostate": "^2.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "simple-crypto-js": "^2.2.0",
+    "sscroll": "^1.1.2",
+    "sstack": "^0.1.4",
+    "tighpo": "^1.0.1"
+  }
+}

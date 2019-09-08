@@ -1,0 +1,36 @@
+.movies {
+  background: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media (min-width: 900px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.movies__left {
+  max-width: 390px;
+  margin-bottom: 60px;
+
+  @media (min-width: 900px) {
+    margin-bottom: 0;
+  }
+}
+.movies__right {
+  @media (min-width: 900px) {
+    max-width: calc(100% - 390px - 48px);
+  }
+}
+
+.movie {
+  padding: 18px 24px 20px;
+  margin-bottom: 1em;
+  max-width: 730px;
+
+  &.is-eric {
+    background: var(--eric);
+  }
+  &.is-mel {
+    background: var(--mel);
+  }
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Palanquin+Dark:600&display=swap');
+
+@import './components/modal.css';
+@import './components/forms.css';
+@import './components/intro.css';
+@import './components/selections.css';
+@import './components/movies.css';
+@import './components/copy.css';
+@import './components/footer.css';
+
+:root {
+  --bg: #fdf7e9;
+  --eric: #23b5d3;
+  --mel: #fc8f71;
+  --gray: #808082;
+}
+.cw {
+  color: white;
+}
+.bg-eric {
+  background: var(--eric);
+}
+.bg-mel {
+  background: var(--mel);
+}
+
+body {
+  color: #333;
+  background: var(--bg);
+  font-family: 'Open Sans', sans-serif;
+}
+
+::selection {
+  background: var(--mel);
+}
+
+.pal {
+  font-family: 'Palanquin Dark', sans-serif;
+}
+.open {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Palanquin Dark', sans-serif;
+}
+h1 {
+  font-size: 36px;
+
+  @media (min-width: 900px) {
+    font-size: 52px;
+  }
+}
+h2 {
+  font-size: 28px;
+
+  @media (min-width: 900px) {
+    font-size: 38px;
+  }
+}
+h3 {
+  font-size: 24px;
+
+  @media (min-width: 900px) {
+    font-size: 28px;
+  }
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+.h6,
+h6 {
+  font-size: 12px;
+}
+.light {
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+
+button.button {
+  padding: 0.5em 2em 0.7em;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: 'Palanquin Dark', sans-serif;
+  background: var(--mel);
+  transition: background 200ms ease-in-out;
+  &:hover {
+    background: #333;
+  }
+}
+
+.outer {
+  padding-left: 24px;
+  padding-right: 24px;
+
+  @media (min-width: 900px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container--m {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container--s {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.gif {
+  object-fit: cover;
+}
