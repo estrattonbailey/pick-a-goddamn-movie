@@ -9,8 +9,8 @@ export default props => (
       <div className='copy__inner f ais fw'>
         <div className='copy__left'>
           <h4>No seriously, what’s the point?</h4>
-          <p>Perpetually behind on all-things entertainment,  Melanie and Eric waste a pathetic amount of time browsing whatever content diarrhea is newly bubbling across today’s streaming platforms.  But, on most evenings (after sifting through 85 trailers), the indecisive noobs won’t wind up watching anything.</p>
-          <p>Thus, the duo decided to create a new, fail-safe system. If they limit their options to a measly six movies, they, like, HAVE to select one. As an added layer of security, they are not allowed to indulge in ANY other movies.</p>
+          <p>Ever behind on all-things entertainment,  Melanie and Eric waste hours browsing whatever content diarrhea is spewing across today’s streaming platforms.  And yet, on most evenings (after sifting through 2-27 trailers), the pitiful pair won’t wind up watching anything.</p>
+          <p>Thus, the duo decided to create a new, fail-safe system. If they limit their options to a measly six movies, they, like, HAVE to select one. In other words, they are not allowed to watch ANY other movies than the chosen six.</p>
         </div>
         <div className='copy__right'>
           <h4>What are the parameters?</h4>
